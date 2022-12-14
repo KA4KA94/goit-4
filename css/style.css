@@ -74,6 +74,7 @@ margin-right: auto;
 .main-nav{
     display: flex;
     align-items: center;
+    height: 80px;
 }
 /* site-nav */
 .site-nav{
@@ -220,7 +221,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 margin-bottom: 10px;
 margin-top: 0;
-padding-top: 95px;
+padding-top: 30px;
 
 }
 .list-title::before{
@@ -230,10 +231,22 @@ padding-top: 95px;
     width: 270px;
     background-repeat: no-repeat;
     background-position: center;
+    margin-top: 95px;
+    
 }
 .list-title:nth-child(1)::before{
-    background-image: url(../img/Vector.svg);
+    background-image: url(../img/antenna\ 1.svg);
 }
+.list-title:nth-child(2)::before{
+    background-image: url(../img/clock\ 1.svg);
+}
+.list-title:nth-child(3)::before{
+    background-image: url(../img/diagram\ 1.svg);
+}
+.list-title:nth-child(4)::before{
+    background-image: url(../img/astronaut\ 1.svg);
+}
+
 .advantage-link .paragraph{
 color: var(--second-text-color);
 font-weight: 400;
@@ -262,6 +275,7 @@ letter-spacing: 0.03em;
 margin-top: 0;
 margin-bottom: 50px;
 padding-top: 95px;
+   
 
 /* img */
 }
@@ -301,10 +315,24 @@ margin-bottom: 10px;
     color: var(--second-text-color);
     margin: 0;
     padding: 0;
+
 }
+
 .section-title .title{
 color: var(--primary-text-color);    
 }
+/* Client */
+.client{
+color: var(--primary-text-color);
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
 /* Footer */
 .footer{
 height: 252px;
