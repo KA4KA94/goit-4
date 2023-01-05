@@ -113,12 +113,13 @@ text-decoration: none;
 }
 /* auch-nav */
 .auch-nav {
-    padding: 0;
-    margin-left: 326px;
+    padding-left: 300px;
+    text-align:auto;
 
 }
 .auch-nav .link{
 color: var(--primary-text-color);
+margin-right: 30px;
 
 }
 .auch-nav .link:hover,
@@ -126,9 +127,7 @@ color: var(--primary-text-color);
  color: var(--accent-color);
 
 }
-.auch-nav .item + .item{
-    margin-left: 50px;
-    
+.auch-nav .item + .item{   
 }  
 
 /* Hero */
@@ -141,6 +140,7 @@ background-image: linear-gradient(
 
 text-align: center;
 height: 600px;    
+margin-bottom: 95px;
     
 }
 
@@ -224,7 +224,7 @@ margin-top: 0;
 padding-top: 30px;
 
 }
-.list-title::before{
+.list-title::{
     content:"";
     display:block;
     height: 120px;
@@ -234,19 +234,6 @@ padding-top: 30px;
     margin-top: 95px;
     
 }
-.list-title:nth-child(1)::before{
-    background-image: url(../img/antenna\ 1.svg);
-}
-.list-title:nth-child(2)::before{
-    background-image: url(../img/clock\ 1.svg);
-}
-.list-title:nth-child(3)::before{
-    background-image: url(../img/diagram\ 1.svg);
-}
-.list-title:nth-child(4)::before{
-    background-image: url(../img/astronaut\ 1.svg);
-}
-
 .advantage-link .paragraph{
 color: var(--second-text-color);
 font-weight: 400;
@@ -254,11 +241,9 @@ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 margin: 0;
-padding: 0;
+padding: 0; 
+}   
 
-
-
-}
 .advantage-link{
     display: flex;
  margin: 0;
@@ -405,4 +390,50 @@ padding: 0;
 
 .flex-element:nth-child(3n ){
     margin-right: 0;
+}
+.button-svg{
+    width: 30px;
+    height: 30px;
+    fill: red ;
+}
+.features{
+   
+    display: flex;
+    background-color: #F5F4FA;
+    width: 270px;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+}
+
+.koki{
+    margin-right:10px;
+    fill:#757575;
+}
+.icon{
+    fill: #757575;
+        
+}
+.icon:hover{
+    fill: #2196F3;
+    
+}
+.icon-company{
+    display: flex;
+    width: 170px;
+    height: 92px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    margin-right: 30px;
+}
+.icon-company:last-child {
+    margin-right: 0;
+  }
+.koki2{
+    display: flex;
+}
+.section-title .m{
+    background-color: #F5F4FA;
 }
